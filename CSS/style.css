@@ -187,3 +187,84 @@ button:focus {
     background: #3b8509;
     color: #ffffff;
 }
+
+	
+	
+	
+/*  grids */
+
+main {
+	display: grid;
+}
+
+/* hero content */
+
+.content {
+	display: grid;
+}
+
+/* about content */
+
+.about-content {
+	display: grid;
+}
+
+/*  gallery */
+
+.gallery {
+	display: grid;
+}
+
+/*  article */
+
+article {
+	display: grid;
+}
+
+/* form container */
+.form-container {
+	display: grid;
+}
+
+/* footer */
+
+footer {
+	display: grid;
+}
+
+/*  layout */
+
+/*   mobile is the default layout*/
+
+/* tablet layout >=48rem (768px) */
+
+@media screen and (min-width: 48rem) {
+
+	/*      hero content */
+
+	/*	about content */
+
+	/*	gallery */
+
+	/*	article */
+
+	/*	form */
+
+
+}
+
+/* wide screen layout >=64rem (1024px) */
+
+@media screen and (min-width: 64rem) {
+
+	/*      hero content */
+
+	/*	about content */
+
+	/*	gallery */
+
+	/*	article */
+
+	/*	form */
+
+}
