@@ -27,7 +27,8 @@ input:focus, textarea:focus {
   background   : blue;
   border-radius: 6px;
 outline : none;
-	
+}
+
 [Type="radio"]{
 width: 1%;
 }
@@ -189,73 +190,224 @@ button:focus {
 }
 
 main {
-	display: grid;
-}
+        display: grid;
+    }
 
-.content {
-	display: grid;
-}
+    .content {
+        display: grid;
+    }
 
-.about-content {
-	display: grid;
-}
+    .about-content {
+        display: grid;
+    }
 
-.gallery {
-	display: grid;
-}
+    .gallery {
+        display: grid;
+    }
 
-article {
-	display: grid;
-}
+    article {
+        display: grid;
+    }
 
-.form-container {
-	display: grid;
-}
+    .form-container {
+        display: grid;
+    }
 
-footer {
-	display: grid;
-}
+    footer {
+        display: grid;
+        text-align: center;
+    }
 
-@media screen and (min-width: 48rem) {
+    .hero .content picture {
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.content {
-	display: grid;
-}
+    .hero .content p {
+        margin: 5px 0;
+    }
 
-.about-content {
-	display: grid;
-}
+    .hero.content picture {
+        margin-bottom: 50px;
+        display: block;
+    }
 
-.gallery {
-	display: grid;
-}
+    .about-content {
+        width: 80%;
+        margin-bottom: 50px;
+    }
 
-article {
-	display: grid;
-}
+    about-content p {
+        margin: 5px 0;
+    }
 
-.form-container {
-	display: grid;
-}
+    .about-content .my-info {
+        padding-left: 50px;
+    }
 
-@media screen and (min-width: 64rem) {
+    .gallery .content figure {
+        width: 90%;
+        border: 0;
+        margin: 0 auto 20px;
+    }
 
-.content {
-	display: grid;
-}
+    .gallery .content figure figcaption {
+        font-size: 15px;
+        padding-top: 20px;
+        text-align: center;
+    }
 
-.about-content {
-	display: grid;
-}
+    article {
+        font-size: 18px;
+        text-align: left;
+    }
 
-.gallery {
-	display: grid;
-}
+    article p {
+        line-height: 1.6;
+        margin: 10px 0;
+    }
 
-article {
-	display: grid;
-}
+    .story,
+    .form-container {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
 
-.form-container {
-	display: grid;
+    .story h1,
+    .form-container h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 48rem) {
+       
+    .hero .content {
+            width: 80%;
+            font-size: 22px;
+            margin: 20px auto 0;
+        }
+
+        .hero .content p {
+            margin: 5px 0;
+        }
+
+        .hero .content picture {
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            width: 80%;
+            font-size: 22px;
+            margin-bottom: 50px;
+            margin-left: 75px;
+        }
+
+        .about-content p {
+            margin: 5px 0;
+        }
+
+        .about-content .my-info {
+            padding-left: 150px;
+        }
+
+        .gallery .content figure {
+            width: 100%;
+            margin: 0;
+            display: flex;
+        }
+
+        .gallery .content figure figcaption {
+            width: 100%;
+            text-align: left;
+            padding-top: 125px;
+            padding-left: 100px;
+            box-sizing: border-box;
+        }
+
+        article {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        article p {
+            line-height: 1.8;
+        }
+
+        .story,
+        .form-container {
+            width: 80%;
+            padding: 0;
+        }
+
+        .story h1,
+        .form-container h1 {
+            font-size: 22px;
+        }
+    }
+
+    @media screen and (min-width: 64rem) {
+
+        .hero .content {
+            width: 60%;
+            margin: 20px auto 0;
+        }
+
+        .hero .content p {
+            padding-left: 200px;
+        }
+
+        .about-content {
+            display: grid;
+            width: 60%;
+            margin: 0 auto 0;
+        }
+
+        .about-content p {
+            padding-left: 200px;
+        }
+
+        .about-content .my-info {
+            padding-left: 310px;
+        }
+	    
+        .gallery .content {
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .gallery .content figure {
+            width: 43%;
+            margin: 0;
+            display: flex;
+            border: 1px solid #ccd;
+        }
+
+        .gallery .content figure picture {
+            width: 40%;
+        }
+
+        .gallery .content figure figcaption {
+            width: 50%;
+            text-align: center;
+            padding-top: 115px;
+        }
+
+        article {
+            display: grid;
+        }
+
+        .story,
+        .form-container {
+            width: 60%;
+            margin: 0 auto;
+            padding: 0 200px;
+        }
+
+        .story h1,
+        .form-container h2 {
+            text-align: center;
+        }
+    }
 }
